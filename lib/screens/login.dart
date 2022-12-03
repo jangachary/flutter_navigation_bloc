@@ -18,29 +18,23 @@ class _LoginState extends State<Login> {
         children: <Widget>[
           Container(
             padding: const EdgeInsets.fromLTRB(20, 20, 20, 70),
-            child: FlutterLogo(
+            child: const FlutterLogo(
               size: 40,
             ),
           ),
           Container(
             padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-            child: TextField(
+            child: const TextField(
               decoration: InputDecoration(
-                // border: OutlineInputBorder(
-                //   borderRadius: BorderRadius.circular(90.0),
-                // ),
                 labelText: 'Email',
               ),
             ),
           ),
           Container(
             padding: const EdgeInsets.fromLTRB(20, 20, 20, 0),
-            child: TextField(
+            child: const TextField(
               obscureText: true,
               decoration: InputDecoration(
-                // border: OutlineInputBorder(
-                //   borderRadius: BorderRadius.circular(90.0),
-                // ),
                 labelText: 'Password',
               ),
             ),
